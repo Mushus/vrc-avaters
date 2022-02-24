@@ -6,6 +6,7 @@ include .env
 .PHONY: import, build, clean
 
 import:
+	mkdir -p ${curdir}/src
 	rm -rf ${curdir}/src/*
 	GOOGLE_APPLICATION_CREDENTIALS=${curdir}/credentials.json \
 	${node} -T ${curdir}/scripts/importer.ts \
