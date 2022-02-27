@@ -36,7 +36,9 @@ dist/Avater.unitypackage: dist tmp/Assets/${AVATER_ASSET_DIR} tmp/Assets/${AVATE
 		./Assets/Windra
 
 dist/README.txt: dist
-	cp templates/README.txt dist/README.txt
+	${node} -T ${curdir}/scripts/readmeGenerator.ts \
+		--templates ${curdir}/templates \
+		${curdir}/dist/README.txt
 
 dist/LICENSE.txt: dist
 	cp templates/LICENSE.txt dist/LICENSE.txt
