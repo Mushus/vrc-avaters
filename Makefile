@@ -3,7 +3,7 @@ node = ${curdir}/node_modules/.bin/ts-node
 
 include .env
 
-.PHONY: import, build, clean
+.PHONY: import, build, clean, bundle
 
 import:
 	mkdir -p ${curdir}/src
@@ -16,6 +16,8 @@ import:
 
 build: dist/Avater.unitypackage
 
+bundle: bundle.zip
+
 clean:
 	rm -rf ./dist ./tmp bundle.zip
 
@@ -25,13 +27,13 @@ dist:
 dist/src: dist
 	cp -r ./src ./dist/src
 
-dist/Avater.unitypackage: dist tmp/Assets/${AVATER_ASSET_DIR}
-	cd tmp/Assets && \
+dist/Avater.unitypackage: dist tmp/Assets/${AVATER_ASSET_DIR} tmp/Assets/${AVATER_ASSET_DIR}.meta
+	cd tmp && \
 	${node} -T \
 		${curdir}/scripts/unitypacker.ts \
 		--output ${curdir}/dist/Avater.unitypackage \
 		--recursive \
-		./
+		./Assets/Windra
 
 dist/README.txt: dist
 	cp templates/README.txt dist/README.txt
@@ -45,6 +47,8 @@ bundle.zip: dist/README.txt dist/LICENSE.txt dist/Avater.unitypackage dist/src
 tmp/Assets:
 	mkdir -p ./tmp/Assets
 
+tmp/Assets/${AVATER_ASSET_DIR}.meta: tmp/Assets
+	cp -r ./unity/Assets/${AVATER_ASSET_DIR}.meta ./tmp/Assets
 tmp/Assets/${AVATER_ASSET_DIR}: tmp/Assets
 	cp -r ./unity/Assets/${AVATER_ASSET_DIR} ./tmp/Assets
 	${node} -T ${curdir}/scripts/avaterIdRemover.ts \
