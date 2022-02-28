@@ -322,6 +322,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3637085722006942518, guid: 9ac9421bfb8793341a9fca8f0395878e,
+        type: 3}
+      propertyPath: unityVersion
+      value: 2019.4.36f1
+      objectReference: {fileID: 0}
     - target: {fileID: 3637085723357896854, guid: 9ac9421bfb8793341a9fca8f0395878e,
         type: 3}
       propertyPath: m_RootOrder
