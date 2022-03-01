@@ -33,7 +33,7 @@ dist/Avater.unitypackage: dist tmp/Assets/${AVATER_ASSET_DIR} tmp/Assets/${AVATE
 		${curdir}/scripts/unitypacker.ts \
 		--output ${curdir}/dist/Avater.unitypackage \
 		--recursive \
-		./Assets/Windra
+		./Assets/${AVATER_ASSET_DIR}
 
 dist/README.txt: dist
 	${node} -T ${curdir}/scripts/readmeGenerator.ts \
