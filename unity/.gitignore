@@ -73,3 +73,6 @@ crashlytics-build.properties
 
 /Assets/*
 !/Assets/VRCSDK.meta
+
+!/Assets/Iris
+!/Assets/VRCSDK.meta
