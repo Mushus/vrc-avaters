@@ -4,7 +4,7 @@ README
 
 ## はじめに
 
-本3Dモデルをダウンロードいただきありがとうございます。
+ちっちゃいリスのアイリスです。
 
 ## 内容物
 
@@ -26,13 +26,18 @@ README
 また、Unity プロジェクトには、以下のパッケージを事前にインポートしてください。
 
 * VRChat SDK3 Avater
+* ※1 [Dynamic Bone](https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743)
+* ※2 [whiteflare/Unlit_WF_ShaderSuite](https://github.com/whiteflare/Unlit_WF_ShaderSuite)
+
+※1 なくても問題ありませんが、アバターAvaterPrefab/IrisからDynamic Boneコンポーネントを削除が必要になります。
+※2 なくても問題ありませんが、アバターのマテリアルをIrisBodyMat1からIrisBodyMat2に変更する必要があります。
+
 
 ### アバターパッケージの読み込み
 
 `Avater.unitypackage` を Unity アプリケーションにドラック＆ドロップを行い、パッケージをインポートします。
 インポートされた `sample` シーン探し、ダブルクリックで開きます。
 その後アバターのアップロードをする手順を踏むことで、 VRChat 本アバターをアップロードすることができます。
-
 
 ## 連絡先
 
