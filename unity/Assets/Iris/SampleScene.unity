@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -121,6 +121,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &8828395 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7611887315299413952, guid: 46b10ca3cf46c20498c6aa6dbd2448fd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6665155201110370080}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8828397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8828395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 0
 --- !u!1 &410434359
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +322,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6665155201311527977, guid: 46b10ca3cf46c20498c6aa6dbd2448fd,
+        type: 3}
+      propertyPath: fallbackStatus
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6665155202402856486, guid: 46b10ca3cf46c20498c6aa6dbd2448fd,
         type: 3}
       propertyPath: m_Name
@@ -363,5 +387,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6898247942342821724, guid: 46b10ca3cf46c20498c6aa6dbd2448fd,
+        type: 3}
+      propertyPath: VisemeSkinnedMesh
+      value: 
+      objectReference: {fileID: 6665155201110370081}
+    - target: {fileID: 7309501529218997201, guid: 46b10ca3cf46c20498c6aa6dbd2448fd,
+        type: 3}
+      propertyPath: fallbackStatus
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46b10ca3cf46c20498c6aa6dbd2448fd, type: 3}
+--- !u!137 &6665155201110370081 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8341244431030210499, guid: 46b10ca3cf46c20498c6aa6dbd2448fd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6665155201110370080}
+  m_PrefabAsset: {fileID: 0}
