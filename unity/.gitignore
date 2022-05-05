@@ -72,7 +72,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 /Assets/*
-!/Assets/VRCSDK.meta
 
 !/Assets/Iris
-!/Assets/VRCSDK.meta
+!/Assets/Orca
+!/Assets/Tests
