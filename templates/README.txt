@@ -30,7 +30,7 @@ README
 * ※2 [whiteflare/Unlit_WF_ShaderSuite](https://github.com/whiteflare/Unlit_WF_ShaderSuite)
 
 ※1 なくても問題ありませんが、アバターAvaterPrefab/IrisからDynamic Boneコンポーネントを削除が必要になります。
-※2 なくても問題ありませんが、アバターのマテリアルをIrisBodyMat1からIrisBodyMat2に変更する必要があります。
+※2 なくても問題ありませんが、アバターのマテリアルをご自身で変更する必要があります。
 
 
 ### アバターパッケージの読み込み
