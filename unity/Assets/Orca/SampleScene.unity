@@ -374,6 +374,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 688333859}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &688333861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688333860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 0
 --- !u!114 &688333862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,7 +399,7 @@ MonoBehaviour:
   m_Script: {fileID: -1427037861, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  launchedFromSDKPipeline: 0
+  launchedFromSDKPipeline: 1
   completedSDKPipeline: 0
   blueprintId: avtr_2ad842dd-a047-42dc-85c1-8fd0a43185ec
   contentType: 0
@@ -1874,19 +1887,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 688333859}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &688333876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688333860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contentType: 0
 --- !u!4 &728944155 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8632125731405268276, guid: d29e9cba3e92ed345b07769285dff649,
@@ -2028,7 +2028,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
