@@ -71,7 +71,9 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
+# Ignore Packages
+/[Pp]ackages/*/*
+
 /Assets/*
-!/Assets/VRCSDK.meta
 
 !/Assets/WhipLp
