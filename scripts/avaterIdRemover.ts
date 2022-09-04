@@ -13,7 +13,8 @@ program
   .action(async ({ }: Options, { args }: Command) => {
     const [target] = args;
 
-    const sceneFilePaths = glob.sync(path.join(target, '/**/*.(unity|prefab)'));
+    const sceneFilePaths = glob.sync(path.join(target, '**/*.@(unity|prefab)'));
+    console.log(sceneFilePaths)
     sceneFilePaths.forEach(sceneFilePath => {
       let data = fs.readFileSync(sceneFilePath).toString('utf8');
       data = data.replace(/blueprintId:\savtr_[0-9a-f\-]+$/m, 'blueprintId:')
