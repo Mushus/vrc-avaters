@@ -4,7 +4,7 @@ README
 
 ## はじめに
 
-ちっちゃいリスのアイリスです。
+てくてく歩くシャチとドラゴン間の子のレプたんです
 
 ## 内容物
 
@@ -26,10 +26,8 @@ README
 また、Unity プロジェクトには、以下のパッケージを事前にインポートしてください。
 
 * VRChat SDK3 Avater
-* ※1 [Dynamic Bone](https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743)
-* ※2 [whiteflare/Unlit_WF_ShaderSuite](https://github.com/whiteflare/Unlit_WF_ShaderSuite)
+* ※2 [UnityChangシェーダー](https://github.com/unity3d-jp/UnityChanToonShaderVer2_Project/releases/tag/legacy-2.0.9)
 
-※1 なくても問題ありませんが、アバターAvaterPrefab/IrisからDynamic Boneコンポーネントを削除が必要になります。
 ※2 なくても問題ありませんが、アバターのマテリアルをご自身で変更する必要があります。
 
 
