@@ -204,6 +204,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1 &1175642876 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3109173957512341428, guid: 0ec3c17f5a888b649a40126541bee11f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2875382250939876100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1175642889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175642876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 0
 --- !u!1 &1632663529
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +322,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 688333862, guid: 6707fbfd579846441a9f206b48677f6e, type: 3}
+      propertyPath: fallbackStatus
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 688333863, guid: 6707fbfd579846441a9f206b48677f6e, type: 3}
       propertyPath: specialAnimationLayers.Array.data[0].animatorController
       value: 
@@ -482,6 +505,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orca
       objectReference: {fileID: 0}
+    - target: {fileID: 2060830938035313666, guid: 6707fbfd579846441a9f206b48677f6e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8001640662567084206, guid: 6707fbfd579846441a9f206b48677f6e,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -490,7 +518,7 @@ PrefabInstance:
     - target: {fileID: 8437840105292631587, guid: 6707fbfd579846441a9f206b48677f6e,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6707fbfd579846441a9f206b48677f6e, type: 3}

@@ -16,11 +16,7 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
-      does not match position in animation file:\n\t'LowerLeg.L' : position error
-      = 85.201828 mm\n\t'Foot.L' : position error = 70.056931 mm\n\t'Toes.L' : position
-      error = 120.173286 mm\n\t'LowerLeg.R' : position error = 85.201752 mm\n\t'Foot.R'
-      : position error = 70.057014 mm\n\t'Toes.R' : position error = 120.173180 mm\n"
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -160,35 +156,35 @@ ModelImporter:
     - boneName: Sholder.L
       humanName: LeftShoulder
       limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        min: {x: 0, y: -15, z: -5}
+        max: {x: 0, y: 15, z: 30}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: Sholder.R
       humanName: RightShoulder
       limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        min: {x: 0, y: -15, z: -5}
+        max: {x: 0, y: 15, z: 30}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: UpperArm.L
       humanName: LeftUpperArm
       limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        min: {x: -90, y: -100, z: -15}
+        max: {x: 90, y: 100, z: 100}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: UpperArm.R
       humanName: RightUpperArm
       limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        min: {x: -90, y: -100, z: -15}
+        max: {x: 90, y: 100, z: 100}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: LowerArm.L
       humanName: LeftLowerArm
       limit:
