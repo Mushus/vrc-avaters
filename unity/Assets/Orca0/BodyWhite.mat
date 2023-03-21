@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: BodyWhite
   m_Shader: {fileID: 4800000, guid: 4bd76f6599a5b8e4d88d81300fb74c37, type: 3}
-  m_ShaderKeywords: _TR_ENABLE _TS_ENABLE _TS_STEP2_ENABLE
-  m_LightmapFlags: 4
+  m_ShaderKeywords: _GL_AUTO_ENABLE _TR_ENABLE _TS_ENABLE _TS_STEP2_ENABLE
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -97,6 +97,7 @@ Material:
     - _ES_Shape: 3
     - _ES_Sharpness: 1
     - _ES_Speed: 2
+    - _FlipMirror: 0
     - _GI_EmissionMultiplier: 1
     - _GI_Enable: 0
     - _GI_IndirectChroma: 1
@@ -116,6 +117,7 @@ Material:
     - _HL_CapType: 0
     - _HL_Enable: 0
     - _HL_InvMaskVal: 0
+    - _HL_MatcapMonochrome: 0
     - _HL_Parallax: 0.75
     - _HL_Power: 1
     - _MT_BlendNormal: 0.1
@@ -134,7 +136,6 @@ Material:
     - _MT_Specular: 0
     - _Mode: 0
     - _NM_Enable: 0
-    - _NM_FlipMirror: 0
     - _NM_Power: 0.25
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -151,13 +152,17 @@ Material:
     - _TR_PowerSide: 0.1
     - _TR_PowerTop: 0.1
     - _TS_1stBorder: 0.1
+    - _TS_1stFeather: 0.1
     - _TS_2ndBorder: 0.05
+    - _TS_2ndFeather: 0.1
     - _TS_3rdBorder: 0.1
+    - _TS_3rdFeather: 0.1
     - _TS_BlendNormal: 0.1
     - _TS_Enable: 1
-    - _TS_Feather: 0.1
     - _TS_FixContrast: 0
     - _TS_InvMaskVal: 0
+    - _TS_MaxDist: 4
+    - _TS_MinDist: 1
     - _TS_Power: 0.5
     - _TS_Steps: 2
     - _UVSec: 0
@@ -167,6 +172,7 @@ Material:
     - _Color: {r: 0.8156817, g: 0.8244439, b: 0.8867924, a: 1}
     - _ES_Direction: {r: 0, g: -10, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GL_CustomLitPos: {r: 0, g: 3, b: 0, a: 1}
     - _HL_MatcapColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _HL_MedianColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

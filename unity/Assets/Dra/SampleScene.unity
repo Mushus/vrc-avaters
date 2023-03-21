@@ -374,7 +374,7 @@ MonoBehaviour:
   blueprintId: avtr_36d8210e-7bc2-4422-80a8-0d2eff5657cc
   contentType: 0
   assetBundleUnityVersion: 
-  fallbackStatus: 0
+  fallbackStatus: 3
 --- !u!114 &72923104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,7 +500,7 @@ MonoBehaviour:
     type: 5
     animatorController: {fileID: 9100000, guid: 57dc325b8f6944a4b973ee71009c1c31,
       type: 2}
-    mask: {fileID: 0}
+    mask: {fileID: 31900000, guid: b2b8bad9583e56a46a3e21795e96ad92, type: 2}
     isDefault: 0
   specialAnimationLayers:
   - isEnabled: 0
@@ -726,13 +726,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  immobile: 0.3
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
   gravity: 0.06
   gravityCurve:
     serializedVersion: 2
@@ -742,6 +735,14 @@ MonoBehaviour:
     m_RotationOrder: 4
   gravityFalloff: 0
   gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0.3
+  immobileCurve:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
@@ -861,13 +862,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  immobile: 0.3
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
   gravity: 0
   gravityCurve:
     serializedVersion: 2
@@ -877,6 +871,14 @@ MonoBehaviour:
     m_RotationOrder: 4
   gravityFalloff: 0
   gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0.3
+  immobileCurve:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
@@ -996,13 +998,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  immobile: 0.3
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
   gravity: 0
   gravityCurve:
     serializedVersion: 2
@@ -1012,6 +1007,14 @@ MonoBehaviour:
     m_RotationOrder: 4
   gravityFalloff: 0
   gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0.3
+  immobileCurve:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
@@ -1093,6 +1096,19 @@ MonoBehaviour:
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
+--- !u!114 &72923111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72923102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 0
 --- !u!4 &601432895 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 902978311734085834, guid: 51660c8650cf5bf4884434bcf71aad12,
@@ -1403,13 +1419,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  immobile: 0.3
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
   gravity: 0
   gravityCurve:
     serializedVersion: 2
@@ -1419,6 +1428,14 @@ MonoBehaviour:
     m_RotationOrder: 4
   gravityFalloff: 0
   gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0.3
+  immobileCurve:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
@@ -1538,13 +1555,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  immobile: 0.3
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
   gravity: 0
   gravityCurve:
     serializedVersion: 2
@@ -1554,6 +1564,14 @@ MonoBehaviour:
     m_RotationOrder: 4
   gravityFalloff: 0
   gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0.3
+  immobileCurve:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
@@ -1673,13 +1691,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  immobile: 0.3
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
   gravity: 0.06
   gravityCurve:
     serializedVersion: 2
@@ -1689,6 +1700,14 @@ MonoBehaviour:
     m_RotationOrder: 4
   gravityFalloff: 0
   gravityFalloffCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  immobileType: 0
+  immobile: 0.3
+  immobileCurve:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
@@ -1895,7 +1914,7 @@ MonoBehaviour:
     type: 5
     animatorController: {fileID: 9100000, guid: 57dc325b8f6944a4b973ee71009c1c31,
       type: 2}
-    mask: {fileID: 0}
+    mask: {fileID: 31900000, guid: b2b8bad9583e56a46a3e21795e96ad92, type: 2}
     isDefault: 0
   specialAnimationLayers:
   - isEnabled: 0
@@ -2082,7 +2101,7 @@ MonoBehaviour:
   blueprintId: 
   contentType: 0
   assetBundleUnityVersion: 
-  fallbackStatus: 1
+  fallbackStatus: 3
 --- !u!1 &1353087252
 GameObject:
   m_ObjectHideFlags: 0

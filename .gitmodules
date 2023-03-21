@@ -1,0 +1,3 @@
+[submodule "unity/Assets/AnimatorAsCodeFramework"]
+	path = unity/Assets/AnimatorAsCodeFramework
+	url = git@github.com:hai-vr/av3-animator-as-code.git
