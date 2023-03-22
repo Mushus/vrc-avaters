@@ -7,7 +7,7 @@ interface Options {
   templates: string;
 }
 
-mustache.escape = function (text) {
+mustache.escape = function (text: string) {
   return text;
 };
 
