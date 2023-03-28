@@ -1,41 +1,7 @@
-README
-
-====================
-
-## はじめに
-
 本3Dモデルをダウンロードいただきありがとうございます。
 
-## 内容物
+詳細は以下のオンラインマニュアルを参照ください
 
-* `src/` - 3Dモデルデータ
-* `Avater.unitypackage` - Unityのセットアップ済みアバターパッケージ
-* `LISENCE.txt` - 利用規約
-* `README.txt` - 本ファイル
+利用規約: https://drive.google.com/drive/folders/1IMTXjimbhgbp9bGiL9_j6wvp8b9NJFSy
+説明書: https://docs.google.com/document/d/1c6jsCPRW4HPvTILXaWBD2GEA8nHAYTSLCjMDy_1NSGY
 
-
-{{ specs }}
-
-{{ history }}
-
-## 利用方法
-
-### 事前準備
-
-まず Unity プロジェクトを用意します。
-また、Unity プロジェクトには、以下のパッケージを事前にインポートしてください。
-
-* VRChat SDK3 Avater
-
-### アバターパッケージの読み込み
-
-`Avater.unitypackage` を Unity アプリケーションにドラック＆ドロップを行い、パッケージをインポートします。
-インポートされた `sample` シーン探し、ダブルクリックで開きます。
-その後アバターのアップロードをする手順を踏むことで、 VRChat 本アバターをアップロードすることができます。
-
-
-## 連絡先
-
-作者: むしゅ
-Twitter: @xmu_
-Booth: https://mushus.booth.pm/

@@ -1,4 +1,13 @@
 {
+    "version": "1.1.0",
+    "config": {
+        "avater": {
+            "name": "neneko"
+        },
+        "unity": {
+            "package": "Neko"
+        }
+    },
     "scripts": {
         "unitypacker": "ts-node ./scripts/unitypacker.ts -o dist/hoge.unitypackage -r",
         "node": "node --loader ts-node/esm script.ts"
