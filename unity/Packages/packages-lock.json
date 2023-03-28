@@ -62,6 +62,15 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.recorder": {
+      "version": "2.5.7",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.test-framework": {
       "version": "1.1.29",
       "depth": 0,
@@ -153,7 +162,19 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "52f79781c75e437dffa3118d7360615a63708b39"
+      "hash": "24c16816637242c4aad552ffed8d4fafd283fbec"
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "file:vrchat.blackstartx.gesture-manager",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "vrchat.jordo.easyquestswitch": {
+      "version": "file:vrchat.jordo.easyquestswitch",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

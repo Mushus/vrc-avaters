@@ -15,33 +15,65 @@ MonoBehaviour:
   parameters:
   - name: VRCEmote
     valueType: 0
+    saved: 1
+    defaultValue: 0
   - name: VRCFaceBlendH
     valueType: 1
+    saved: 1
+    defaultValue: 0
   - name: VRCFaceBlendV
     valueType: 1
-  - name: emote
+    saved: 1
+    defaultValue: 0
+  - name: EyeGesture
     valueType: 0
-  - name: eye
+    saved: 1
+    defaultValue: 0
+  - name: EyeEffectGesture
     valueType: 0
+    saved: 1
+    defaultValue: 0
+  - name: MouthGesture
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+  - name: Eye
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+  - name: EyeEffect
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+  - name: Mouth
+    valueType: 0
+    saved: 1
+    defaultValue: 0
   - name: 
     valueType: 0
+    saved: 1
+    defaultValue: 0
   - name: 
     valueType: 0
+    saved: 1
+    defaultValue: 0
   - name: 
     valueType: 0
+    saved: 1
+    defaultValue: 0
   - name: 
     valueType: 0
+    saved: 1
+    defaultValue: 0
   - name: 
     valueType: 0
+    saved: 1
+    defaultValue: 0
   - name: 
     valueType: 0
+    saved: 1
+    defaultValue: 0
   - name: 
     valueType: 0
-  - name: 
-    valueType: 0
-  - name: 
-    valueType: 0
-  - name: 
-    valueType: 0
-  - name: 
-    valueType: 0
+    saved: 1
+    defaultValue: 0

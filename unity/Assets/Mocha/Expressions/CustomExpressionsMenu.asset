@@ -13,73 +13,33 @@ MonoBehaviour:
   m_Name: CustomExpressionsMenu
   m_EditorClassIdentifier: 
   controls:
-  - name: Smiling Face
+  - name: "\u76EE"
     icon: {fileID: 2800000, guid: d7a295cd04454b743a9e4cb2a133ee42, type: 3}
-    type: 102
+    type: 103
     parameter:
-      name: emote
+      name: 
     value: 1
     style: 0
-    subMenu: {fileID: 0}
+    subMenu: {fileID: 11400000, guid: 166156cd0cd2b6e4482c708f0f6db8c7, type: 2}
     subParameters: []
     labels: []
-  - name: Emotinless Face
+  - name: "\u76EE\u30A8\u30D5\u30A7\u30AF\u30C8"
     icon: {fileID: 2800000, guid: db31fd10f48e540499253c20f032e336, type: 3}
-    type: 102
+    type: 103
     parameter:
-      name: emote
+      name: 
     value: 2
     style: 0
-    subMenu: {fileID: 0}
+    subMenu: {fileID: 11400000, guid: da20cf4a969651747b9efa7b5f1b2644, type: 2}
     subParameters: []
     labels: []
-  - name: Sleeping Face
-    icon: {fileID: 2800000, guid: cd8b19972bb3b444f88ae358fb31cb45, type: 3}
-    type: 102
+  - name: "\u53E3"
+    icon: {fileID: 2800000, guid: 50865644fb00f2b4d88bf8a8186039f5, type: 3}
+    type: 103
     parameter:
-      name: emote
-    value: 3
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Astonished Face
-    icon: {fileID: 2800000, guid: 76d9820e0b8e5c64d9c9e3c5530ef475, type: 3}
-    type: 102
-    parameter:
-      name: emote
-    value: 4
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Squinting Face
-    icon: {fileID: 2800000, guid: 782748c0c6c1a834b9717c171680d118, type: 3}
-    type: 102
-    parameter:
-      name: emote
-    value: 5
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Hart Eye
-    icon: {fileID: 2800000, guid: 16a81fdfc302f574db3855be5b995053, type: 3}
-    type: 102
-    parameter:
-      name: eye
+      name: 
     value: 1
     style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: Star Eye
-    icon: {fileID: 2800000, guid: f1f533bdb76cbf54b8981cb1114124b2, type: 3}
-    type: 102
-    parameter:
-      name: eye
-    value: 2
-    style: 0
-    subMenu: {fileID: 0}
+    subMenu: {fileID: 11400000, guid: 5d9382e9abe1a9445b57296ddf301333, type: 2}
     subParameters: []
     labels: []

@@ -3,7 +3,10 @@ node = ${curdir}/node_modules/.bin/ts-node
 
 include .env
 
-.PHONY: import, build, clean, bundle
+.PHONY: import, build, clean, bundle, round
+
+round: # 角丸画像が欲しかった
+	yarn ts-node scripts\roundedImage.ts
 
 import:
 	mkdir -p ${curdir}/src
@@ -36,14 +39,9 @@ dist/Avater.unitypackage: dist tmp/Assets/${AVATER_ASSET_DIR} tmp/Assets/${AVATE
 		./Assets/${AVATER_ASSET_DIR}
 
 dist/README.txt: dist
-	${node} -T ${curdir}/scripts/readmeGenerator.ts \
-		--templates ${curdir}/templates \
-		${curdir}/dist/README.txt
+	cp templates/README.txt dist/README.txt
 
-dist/LICENSE.txt: dist
-	cp templates/LICENSE.txt dist/LICENSE.txt
-
-bundle.zip: dist/README.txt dist/LICENSE.txt dist/Avater.unitypackage dist/src
+bundle.zip: dist/README.txt dist/Avater.unitypackage dist/src
 	cd dist && zip -r ${curdir}/bundle.zip .
 
 tmp/Assets:
@@ -51,6 +49,7 @@ tmp/Assets:
 
 tmp/Assets/${AVATER_ASSET_DIR}.meta: tmp/Assets
 	cp -r ./unity/Assets/${AVATER_ASSET_DIR}.meta ./tmp/Assets
+
 tmp/Assets/${AVATER_ASSET_DIR}: tmp/Assets
 	cp -r ./unity/Assets/${AVATER_ASSET_DIR} ./tmp/Assets
 	${node} -T ${curdir}/scripts/avaterIdRemover.ts \
