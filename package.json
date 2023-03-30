@@ -10,7 +10,9 @@
     },
     "scripts": {
         "unitypacker": "ts-node ./scripts/unitypacker.ts -o dist/hoge.unitypackage -r",
-        "node": "node --loader ts-node/esm script.ts"
+        "node": "node --loader ts-node/esm script.ts",
+        "clean": "rimraf bundle.zip dist tmp",
+        "build": "ts-node ./scripts/build.ts"
     },
     "dependencies": {
         "commander": "^9.0.0",
