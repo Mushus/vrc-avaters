@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controls:
   - name: "\u3073\u3063\u304F\u308A"
-    icon: {fileID: 2800000, guid: 9a20b3a6641e1af4e95e058f361790cb, type: 3}
+    icon: {fileID: 2800000, guid: 2349adcb9baf4994d99e4455bb21cb26, type: 3}
     type: 102
     parameter:
       name: Eye
@@ -24,7 +24,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u306D\u3080"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 71872c4cc9cf997499d8aa2455338a5f, type: 3}
     type: 102
     parameter:
       name: Eye
@@ -34,7 +34,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u306B\u3053"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 5f03c91e30366fa409c84020d7f08547, type: 3}
     type: 102
     parameter:
       name: Eye
@@ -44,7 +44,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u306B\u3053\u3063\uFF01"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 5c2226df597423d4b99fc8f69f7c439c, type: 3}
     type: 102
     parameter:
       name: Eye
@@ -54,7 +54,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u70B9\u76EE"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 862c9b1399ab2224aad6c5bce188ae2d, type: 3}
     type: 102
     parameter:
       name: Eye
@@ -64,7 +64,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u3057\u3087\u307C\u3093"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 91fc01a43a72fed46a4ea2953b3f0111, type: 3}
     type: 102
     parameter:
       name: Eye

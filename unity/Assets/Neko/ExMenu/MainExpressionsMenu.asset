@@ -24,7 +24,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u30811"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 91b4c4aee56e2484e96611aecd4339d2, type: 3}
     type: 103
     parameter:
       name: 
@@ -34,7 +34,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u30812"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 862c9b1399ab2224aad6c5bce188ae2d, type: 3}
     type: 103
     parameter:
       name: 
@@ -44,7 +44,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u3081\u30A8\u30D5\u30A7\u30AF\u30C8"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: dda4361c81cb262429bb09afc75a3e06, type: 3}
     type: 103
     parameter:
       name: 
@@ -54,7 +54,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u304F\u30611"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: d68549126631f7348a87829aedac8638, type: 3}
     type: 103
     parameter:
       name: 
@@ -64,7 +64,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u304F\u30612"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 91fc01a43a72fed46a4ea2953b3f0111, type: 3}
     type: 103
     parameter:
       name: 
@@ -74,7 +74,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u304B\u304A"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 953700a2b23540046b4fb38b3768ec1d, type: 3}
     type: 103
     parameter:
       name: 
