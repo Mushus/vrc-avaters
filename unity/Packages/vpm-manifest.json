@@ -1,4 +1,38 @@
 {
-  "dependencies": {},
-  "locked": {}
+  "dependencies": {
+    "com.vrchat.base": {
+      "version": "3.1.11"
+    },
+    "com.vrchat.avatars": {
+      "version": "3.1.11"
+    },
+    "vrchat.jordo.easyquestswitch": {
+      "version": "1.2.1"
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "3.8.3"
+    }
+  },
+  "locked": {
+    "com.vrchat.base": {
+      "version": "3.1.13",
+      "dependencies": {}
+    },
+    "com.vrchat.avatars": {
+      "version": "3.1.13",
+      "dependencies": {
+        "com.vrchat.base": "3.1.13"
+      }
+    },
+    "vrchat.jordo.easyquestswitch": {
+      "version": "1.2.1",
+      "dependencies": {}
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "3.8.3",
+      "dependencies": {
+        "com.vrchat.avatars": "3.1.x"
+      }
+    }
+  }
 }
