@@ -76,3 +76,5 @@ crashlytics-build.properties
 
 
 /Assets/*
+!/Assets/Tora
+!/Assets/Tora.meta

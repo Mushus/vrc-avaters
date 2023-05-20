@@ -47,7 +47,7 @@ async function main() {
 
   await packUnitypackage(
     path.resolve(__dirname, "../tmp"),
-    path.resolve(__dirname, "../tmp/Assets", avaterName),
+    path.resolve(__dirname, "../tmp/Assets", targetAssetPath),
     path.resolve(__dirname, "../bundle/Avater.unitypackage"),
     true
   );
