@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.autodesk.fbx": {
-      "version": "4.1.1",
+      "version": "4.2.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -31,12 +31,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.formats.fbx": {
-      "version": "4.1.2",
+      "version": "4.2.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.timeline": "1.5.2",
-        "com.autodesk.fbx": "4.1.1"
+        "com.unity.timeline": "1.7.1",
+        "com.autodesk.fbx": "4.2.1"
       },
       "url": "https://packages.unity.com"
     },
@@ -73,7 +73,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.newtonsoft-json": {
-      "version": "2.0.2",
+      "version": "3.0.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -100,7 +100,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.5.2",
+      "version": "1.7.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -154,15 +154,7 @@
       "dependencies": {
         "com.unity.burst": "1.4.11",
         "com.unity.mathematics": "1.2.5",
-        "com.unity.nuget.newtonsoft-json": "2.0.2"
-      }
-    },
-    "com.vrchat.core.vpm-resolver": {
-      "version": "file:com.vrchat.core.vpm-resolver",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "2.0.2"
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
       }
     },
     "jp.amagamina.overwriter": {
@@ -171,6 +163,18 @@
       "source": "git",
       "dependencies": {},
       "hash": "52f79781c75e437dffa3118d7360615a63708b39"
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "file:vrchat.blackstartx.gesture-manager",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "vrchat.jordo.easyquestswitch": {
+      "version": "file:vrchat.jordo.easyquestswitch",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
