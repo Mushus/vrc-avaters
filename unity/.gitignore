@@ -76,3 +76,7 @@ crashlytics-build.properties
 
 
 /Assets/*
+!/Assets/JackONyantan
+!/Assets/JackONyantan.meta
+!/Assets/JackONyantanSample
+!/Assets/JackONyantanSample.meta
